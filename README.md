@@ -1,2 +1,1 @@
-# flipper
-My flipper stuff
+A collection of my flipperzero stuff.

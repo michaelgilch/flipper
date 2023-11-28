@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: Vol_Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9083 4408 656 469 657 470 655 1567 655 468 657 470 655 470 656 469 656 471 654 1566 656 1566 657 470 656 1565 657 1566 657 1568 654 1566 657 1566 656 470 656 1565 657 468 658 470 655 469 657 469 656 469 656 468 657 1566 657 469 657 1565 657 1566 656 1568 655 1566 657 1566 657 1566 656 39107 9075 2149 655 95798 9084 2141 653
+# 
+name: Vol_Dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
